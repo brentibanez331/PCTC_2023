@@ -930,7 +930,7 @@ a {
     }
 
     .programme .time-slot h3 {
-        margin-right: 30px;
+        margin-right: 40px;
         margin-top: 10px;
     }
 
@@ -949,7 +949,7 @@ a {
     }
 
     .programme .time-slot .time-slot-ind{
-        margin-right: 22px;
+        margin-right: 28px;
     }
 
     .programme .panels {
@@ -975,6 +975,24 @@ a {
     }
 
     .speaker .single-speaker span{
+        font-size: 15px;
+    }
+
+
+    .breakout{
+        margin: 30px;
+    }
+
+    .breakout .single-breakout img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .breakout .single-breakout p{
+        font-size: 25px;
+    }
+
+    .breakout .single-breakout span{
         font-size: 15px;
     }
 }
