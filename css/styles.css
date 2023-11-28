@@ -601,6 +601,10 @@ a {
         margin-bottom: 0;
     }
 
+    .programme .time-slot .time-slot-ind{
+        margin-right: 85px;
+    }
+
     .programme .time-slot h3,
     .programme .time-slot p {
         margin-bottom: 10px;
@@ -906,5 +910,66 @@ a {
 
     .navbar .nav-item{
         font-size:30px;
+    }
+
+    .programme{
+        margin: 30px;
+    }
+
+    .programme h2{
+        font-size: 25px;
+    }
+
+    .programme h3{
+        font-size: 22px;
+    }
+
+    .programme .time-slot{
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+
+    .programme .time-slot h3 {
+        margin-right: 30px;
+        margin-top: 10px;
+    }
+
+    .programme .time-slot p {
+        margin-top: 10px;
+        font-size: 22px;
+    }
+
+    .programme .time-slot .event-desc p {
+        margin-bottom: 2px;
+    }
+
+    .programme .time-slot .time-slot-ind{
+        margin-right: 22px;
+    }
+
+    .programme .panels {
+        margin: 0 70px;
+    }
+
+    .feature{
+        margin-right:30px;
+        margin-left:30px;
+    }
+
+    .speaker{
+        margin: 30px;
+    }
+
+    .speaker .single-speaker img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .speaker .single-speaker p{
+        font-size: 25px;
+    }
+
+    .speaker .single-speaker span{
+        font-size: 15px;
     }
 }
