@@ -490,6 +490,18 @@ a {
         margin-right: 70px;
     }
 
+    .tech-visit{
+        margin: 0 80px;
+    }
+
+    .tech-visit .single-tech-visit{
+        margin-right: 0;
+    }
+
+    .tech-visit .single-tech-visit img{
+        margin-right: 70px;
+    }
+
     .speaker{
         margin: 0 80px;
     }
@@ -597,6 +609,11 @@ a {
         margin: 0 80px;
     }
 
+    .breakout h1{
+        margin-top: 30px;
+        margin-bottom:50px;
+    }
+
     .breakout .single-breakout{
         margin-right: 0;
     }
@@ -608,6 +625,51 @@ a {
     }
 
     .breakout .single-breakout p{
+        margin-bottom: 10px;
+    }
+
+    .tech-visit{
+        margin: 0 80px;
+    }
+
+    .tech-visit h1{
+        margin-top: 30px;
+        margin-bottom:50px;
+    }
+
+    .tech-visit .single-tech-visit{
+        margin-right: 0;
+    }
+
+    .tech-visit .single-tech-visit img{
+        margin-right: 30px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .tech-visit .single-tech-visit p{
+        margin-bottom: 10px;
+    }
+
+    .speaker{
+        margin: 0 80px;
+    }
+
+    .speaker h1{
+        margin-top: 30px;
+        margin-bottom:50px;
+    }
+
+    .speaker .single-speaker{
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+    .speaker .single-speaker img{
+        margin-right: 30px;
+    }
+
+    .speaker .single-speaker p{
         margin-bottom: 10px;
     }
 
