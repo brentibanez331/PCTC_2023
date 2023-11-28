@@ -983,9 +983,16 @@ a {
         margin: 30px;
     }
 
+    .breakout .single-breakout{
+        display: flex;
+        flex-direction: column;
+    }
+
     .breakout .single-breakout img{
-        width: 150px;
-        height: 150px;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 10px;
+        box-shadow: 2px 2px rgba(0, 0, 0, 0.05); 
     }
 
     .breakout .single-breakout p{
