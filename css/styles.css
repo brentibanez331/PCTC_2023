@@ -884,6 +884,7 @@ a {
 
     .footer h2 {
         font-size: 15px;
+        margin-bottom: 50px;
     }
 
     .footer .footer-img{
@@ -897,5 +898,11 @@ a {
         width: 130px;
         height: auto;
         padding:0  10px;
+    }
+
+    .footer .support-list img{
+        width:60px;
+        height:60px;
+        padding:0 10px;
     }
 }
