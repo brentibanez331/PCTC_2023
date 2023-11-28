@@ -936,6 +936,11 @@ a {
 
     .programme .time-slot p {
         margin-top: 10px;
+        font-size: 22px;
+    }
+
+    .programme .time-slot span {
+        color:#1A1A1A;
         font-size: 18px;
     }
 
