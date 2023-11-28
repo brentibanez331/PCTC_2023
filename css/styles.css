@@ -1002,4 +1002,29 @@ a {
     .breakout .single-breakout span{
         font-size: 18px;
     }
+
+
+    .tech-visit{
+        margin: 30px;
+    }
+
+    .tech-visit .single-tech-visit{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tech-visit .single-tech-visit img{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 10px;
+        box-shadow: 2px 2px rgba(0, 0, 0, 0.05); 
+    }
+
+    .tech-visit .single-tech-visit p{
+        font-size: 25px;
+    }
+
+    .tech-visit .single-tech-visit span{
+        font-size: 18px;
+    }
 }
