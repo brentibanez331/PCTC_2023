@@ -1,52 +1,52 @@
 @font-face {
     font-family: 'Abhaya Libre';
     src: url('fonts/AbhayaLibre-Regular.ttf') format('truetype'),
-          url('fonts/AbhayaLibre-Regular.woff2') format('woff2'),
-          url('fonts/AbhayaLibre-Regular.woff') format('woff');
+        url('fonts/AbhayaLibre-Regular.woff2') format('woff2'),
+        url('fonts/AbhayaLibre-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Abhaya Libre';
     src: url('fonts/AbhayaLibre-Medium.ttf') format('truetype'),
-          url('fonts/AbhayaLibre-Medium.woff2') format('woff2'),
-          url('fonts/AbhayaLibre-Medium.woff') format('woff');
+        url('fonts/AbhayaLibre-Medium.woff2') format('woff2'),
+        url('fonts/AbhayaLibre-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Abhaya Libre';
     src: url('fonts/AbhayaLibre-SemiBold.ttf') format('truetype'),
-          url('fonts/AbhayaLibre-SemiBold.woff2') format('woff2'),
-          url('fonts/AbhayaLibre-SemiBold.woff') format('woff');
+        url('fonts/AbhayaLibre-SemiBold.woff2') format('woff2'),
+        url('fonts/AbhayaLibre-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Abhaya Libre';
     src: url('fonts/AbhayaLibre-Bold.ttf') format('truetype'),
-          url('fonts/AbhayaLibre-Bold.woff2') format('woff2'),
-          url('fonts/AbhayaLibre-Bold.woff') format('woff');
+        url('fonts/AbhayaLibre-Bold.woff2') format('woff2'),
+        url('fonts/AbhayaLibre-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Abhaya Libre';
     src: url('fonts/AbhayaLibre-ExtraBold.ttf') format('truetype'),
-          url('fonts/AbhayaLibre-ExtraBold.woff2') format('woff2'),
-          url('fonts/AbhayaLibre-ExtraBold.woff') format('woff');
+        url('fonts/AbhayaLibre-ExtraBold.woff2') format('woff2'),
+        url('fonts/AbhayaLibre-ExtraBold.woff') format('woff');
     font-weight: 800;
     font-style: normal;
-  }
-  
+}
+
 
 body {
     margin: 0;
-    font-family: 'Abhaya Libre', sans-serif;      
+    font-family: 'Abhaya Libre', sans-serif;
 }
 
 a {
@@ -74,11 +74,13 @@ a {
 .navbar {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .navbar .nav-item {
     margin: 10px 40px;
     text-decoration: none;
+    text-align: center;
 }
 
 .navbar .nav-link {
@@ -226,7 +228,6 @@ a {
 .footer .support-list {
     display: flex;
     justify-content: space-around;
-
 }
 
 .footer .support-list img {
@@ -234,48 +235,48 @@ a {
     padding: 0 40px;
 }
 
-.programme{
-    margin:0 120px;
-    display:flex;
+.programme {
+    margin: 0 120px;
+    display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.programme h1{
+.programme h1 {
     text-align: center;
 }
 
-.programme h2{
+.programme h2 {
     font-size: 30px;
     margin-bottom: 0;
     margin-top: 10px;
 }
 
-.programme h3{
+.programme h3 {
     font-size: 25px;
 }
 
-.programme p{
+.programme p {
     font-size: 25px;
 }
 
-.programme span{
+.programme span {
     font-size: 20px;
 }
 
-.programme .time-slot{
-    display:flex;
+.programme .time-slot {
+    display: flex;
     flex-direction: row;
     align-items: center;
     margin-left: 50px;
     margin-bottom: 20px;
 }
 
-.programme .time-slot h3{
+.programme .time-slot h3 {
     margin-right: 100px;
 }
 
-.programme .time-slot .event-desc p{
+.programme .time-slot .event-desc p {
     margin-bottom: 10px;
 }
 
@@ -283,20 +284,20 @@ a {
     margin: 0 200px;
 }
 
-.programme .panels ul li{
+.programme .panels ul li {
     font-size: 20px;
     padding-bottom: 5px;
 }
 
-.feature{
-    display:flex;
+.feature {
+    display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 80px 80px;
 }
 
-.feature .single-feature{
-    display:flex;
+.feature .single-feature {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -304,36 +305,36 @@ a {
     padding: 0 50px;
 }
 
-.feature .single-feature a{
+.feature .single-feature a {
     font-size: 22px;
 }
 
-.feature .single-feature img{
+.feature .single-feature img {
     height: 300px;
     width: 300px;
     object-fit: cover;
     margin-bottom: 20px;
 }
 
-.speaker{
-    margin:0 120px;
-    display:flex;
+.speaker {
+    margin: 0 120px;
+    display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.speaker h1{
+.speaker h1 {
     text-align: center;
     margin-bottom: 80px;
 }
 
-.speaker .single-speaker{
+.speaker .single-speaker {
     display: flex;
     margin-bottom: 30px;
     margin-right: 150px;
 }
 
-.speaker .single-speaker img{
+.speaker .single-speaker img {
     width: 230px;
     height: 230px;
     object-fit: cover;
@@ -342,37 +343,38 @@ a {
     box-shadow: 5px 10px rgba(0, 0, 0, 0.08);
 }
 
-.speaker .single-speaker p{
+.speaker .single-speaker p {
     font-size: 28px;
     margin-top: 0;
 }
-.speaker .single-speaker span{
+
+.speaker .single-speaker span {
     font-size: 20px;
     margin-top: 0;
     color: #2a2a2a;
 }
 
 
-.breakout{
-    margin:0 120px;
-    display:flex;
+.breakout {
+    margin: 0 120px;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-.breakout h1{
+.breakout h1 {
     text-align: center;
     margin-bottom: 80px;
 }
 
-.breakout .single-breakout{
+.breakout .single-breakout {
     display: flex;
     margin-bottom: 60px;
     margin-right: 150px;
 }
 
-.breakout .single-breakout img{
+.breakout .single-breakout img {
     width: 230px;
     height: 230px;
     object-fit: cover;
@@ -381,11 +383,12 @@ a {
     box-shadow: 5px 10px rgba(0, 0, 0, 0.08);
 }
 
-.breakout .single-breakout p{
+.breakout .single-breakout p {
     font-size: 28px;
     margin-top: 0;
 }
-.breakout .single-breakout span{
+
+.breakout .single-breakout span {
     font-size: 20px;
     margin-top: 0;
     color: #2a2a2a;
@@ -393,26 +396,26 @@ a {
 
 
 
-.tech-visit{
-    margin:0 120px;
-    display:flex;
+.tech-visit {
+    margin: 0 120px;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-.tech-visit h1{
+.tech-visit h1 {
     text-align: center;
     margin-bottom: 80px;
 }
 
-.tech-visit .single-tech-visit{
+.tech-visit .single-tech-visit {
     display: flex;
     margin-bottom: 60px;
     margin-right: 150px;
 }
 
-.tech-visit .single-tech-visit img{
+.tech-visit .single-tech-visit img {
     width: 230px;
     height: 230px;
     object-fit: cover;
@@ -421,12 +424,97 @@ a {
     box-shadow: 5px 10px rgba(0, 0, 0, 0.08);
 }
 
-.tech-visit .single-tech-visit p{
+.tech-visit .single-tech-visit p {
     font-size: 28px;
     margin-top: 0;
 }
-.tech-visit .single-tech-visit span{
+
+.tech-visit .single-tech-visit span {
     font-size: 20px;
     margin-top: 0;
     color: #2a2a2a;
+}
+
+@media(max-width:1380px){
+    .hero .desc{
+        margin: 0 50px;
+        margin-top: 150px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .hero .desc h1 {
+        font-size: 60px;
+        margin-right: 70px;
+        flex-grow: 2;
+        min-width: 600px;
+    }
+}
+
+@media(max-width: 912px) {
+
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar .nav-item{
+        text-align:center;
+    }
+
+    .header h1 {
+        font-size: 30px;
+    }
+
+    .hero .desc{
+        margin: 0 50px;
+        margin-top: 150px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .hero .desc h1 {
+        font-size: 60px;
+        margin-right: 70px;
+        flex-grow: 2;
+        min-width: 300px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-bottom: 80px;
+    }
+    
+    .footer img {
+        height: 200px;
+        padding-right: 30px;
+    }
+    
+    .footer .support-list img {
+        height: 130px;
+        width: 130px;
+        object-fit: cover;
+        padding: 0 15px;
+    }
+}
+
+@media(max-width: 375px){
+    .header img{
+        width: 300px;
+    }
+
+    .header h1 {
+        margin: 0 30px;
+        font-size: 1.2rem;
+    }
+
+
 }
