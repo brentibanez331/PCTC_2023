@@ -799,7 +799,7 @@ a {
     }
 }
 
-@media(max-width: 440px) {
+@media(max-width: 500px) {
 
     .header{
         margin-top: 10px;
