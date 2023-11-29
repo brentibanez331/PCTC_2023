@@ -963,6 +963,7 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 0 30px;
         margin-top: 0;
     }
 
@@ -977,7 +978,7 @@ a {
         font-size: 20px;
         margin:0;
         margin-top: 20px;
-        text-align: center;
+        text-align: left;
     }
 
     .button {
@@ -991,7 +992,9 @@ a {
         margin-top: 30px;
         min-height: 60px;
         min-width: 0;
-        padding: 0;
+        padding: 20px 15px;
+        width: 50%;
+
     }
 
     .head-nav .checkbtn {
