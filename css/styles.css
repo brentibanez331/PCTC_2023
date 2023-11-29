@@ -562,18 +562,14 @@ a {
 
 @media(max-width:1380px) {
     .hero .desc {
-        margin: 0 50px;
-        margin-top: 150px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+        margin-right:80px;
+        margin-left: 80px;
     }
 
     .hero .desc h1 {
         font-size: 60px;
         margin-right: 70px;
         flex-grow: 2;
-        min-width: 600px;
     }
 
     .navbar .nav-link {
@@ -649,9 +645,6 @@ a {
     .hero .desc {
         margin: 0 80px;
         margin-top: 150px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
     }
 
     .hero .desc h1 {
@@ -816,15 +809,26 @@ a {
         margin: 0 50px;
         margin-top: 150px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
     }
 
     .hero .desc h1 {
         font-size: 60px;
-        margin-right: 70px;
+        margin-right: 0;
         flex-grow: 2;
         min-width: 300px;
+    }
+
+    .hero .desc p {
+        font-size: 30px;
+        text-align: left;
+    }
+
+    .button{
+        font-size: 20px;
+        padding: 30px 30px;
+        width: 30%;
     }
 
     .footer {
@@ -1209,5 +1213,13 @@ a {
 
     .tech-visit .single-tech-visit .container{
         margin-bottom: 10px;
+    }
+}
+
+@media(max-width:432px){
+
+
+    .hero .desc h1{
+        padding: 0 30px;
     }
 }
