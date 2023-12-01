@@ -285,7 +285,7 @@ a {
 }
 
 .programme p {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .programme span {
@@ -302,19 +302,30 @@ a {
 
 .programme .time-slot h3 {
     margin-right: 100px;
+    font-size: 25px;
 }
 
-.programme .time-slot .event-desc p {
-    margin-bottom: 10px;
+.event-desc p {
+    margin-bottom: 5px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.programme .time-slot .event-desc span {
+    font-size: 25px;
 }
 
 .programme .panels {
     margin: 0 200px;
 }
 
-.programme .panels ul li {
-    font-size: 20px;
-    padding-bottom: 5px;
+.programme .panels ul li p{
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.programme .panels ul li{
+    margin-bottom: 5px;
 }
 
 .feature {
@@ -377,62 +388,29 @@ a {
     display: none;
 }
 
-#text-check-1,
-#text-check-2,
-#text-check-3,
-#text-check-4,
-#text-check-5,
-#text-check-6,
-#text-check-7,
-#text-check-8,
-#text-check-9,
-#text-check-10,
-#text-check-11
+#text-check-1, #text-check-2, #text-check-3, #text-check-4, #text-check-5, #text-check-6, #text-check-7, #text-check-8,
+#text-check-9, #text-check-10, #text-check-11
 {
     display: none;
 }
 
-#text-check-1:checked ~ .content,
-#text-check-2:checked ~ .content,
-#text-check-3:checked ~ .content,
-#text-check-4:checked ~ .content,
-#text-check-5:checked ~ .content,
-#text-check-6:checked ~ .content,
-#text-check-7:checked ~ .content,
-#text-check-8:checked ~ .content,
-#text-check-9:checked ~ .content,
-#text-check-10:checked ~ .content,
-#text-check-11:checked ~ .content
+#text-check-1:checked ~ .content,#text-check-2:checked ~ .content, #text-check-3:checked ~ .content, #text-check-4:checked ~ .content,
+#text-check-5:checked ~ .content, #text-check-6:checked ~ .content, #text-check-7:checked ~ .content, #text-check-8:checked ~ .content,
+#text-check-9:checked ~ .content, #text-check-10:checked ~ .content, #text-check-11:checked ~ .content
 {
     display: block;
 }
 
-#text-check-1:checked ~ label,
-#text-check-2:checked ~ label,
-#text-check-3:checked ~ label,
-#text-check-4:checked ~ label,
-#text-check-5:checked ~ label,
-#text-check-6:checked ~ label,
-#text-check-7:checked ~ label,
-#text-check-8:checked ~ label,
-#text-check-9:checked ~ label,
-#text-check-10:checked ~ label,
-#text-check-11:checked ~ label
+#text-check-1:checked ~ label, #text-check-2:checked ~ label, #text-check-3:checked ~ label, #text-check-4:checked ~ label,
+#text-check-5:checked ~ label, #text-check-6:checked ~ label, #text-check-7:checked ~ label, #text-check-8:checked ~ label,
+#text-check-9:checked ~ label, #text-check-10:checked ~ label, #text-check-11:checked ~ label
 {
     display: none;
 }
 
-#text-check-1:checked ~ span,
-#text-check-2:checked ~ span,
-#text-check-3:checked ~ span,
-#text-check-4:checked ~ span,
-#text-check-5:checked ~ span,
-#text-check-6:checked ~ span,
-#text-check-7:checked ~ span,
-#text-check-8:checked ~ span,
-#text-check-9:checked ~ span,
-#text-check-10:checked ~ span,
-#text-check-11:checked ~ span
+#text-check-1:checked ~ span, #text-check-2:checked ~ span, #text-check-3:checked ~ span, #text-check-4:checked ~ span,
+#text-check-5:checked ~ span, #text-check-6:checked ~ span, #text-check-7:checked ~ span, #text-check-8:checked ~ span,
+#text-check-9:checked ~ span, #text-check-10:checked ~ span, #text-check-11:checked ~ span
 {
     display: none;
 }
@@ -466,8 +444,17 @@ a {
 }
 
 .speaker .single-speaker p {
-    font-size: 28px;
+    font-size: 30px;
     margin-top: 0;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.speaker .single-speaker .speaker-desc .speaker-sched{
+    font-size: 25px;
+    color: #333333;
+    margin-bottom: 30px;
+    font-weight: 400;
 }
 
 .speaker .single-speaker span {
@@ -637,6 +624,44 @@ a {
     flex-direction: column;
     align-items: center;
 }
+
+.programme .breakout-main{
+    display:flex;
+    flex-direction: row;
+}
+
+.programme .breakout-main .breakout-part {
+    width: calc(100%/4);
+}
+
+.programme .breakout-main .breakout-part p{
+    font-size: 27px;
+}
+
+.programme .breakout-main .event-desc p{
+    font-size: 24px;
+}
+
+.programme .breakout-main .breakout-part h3{
+    font-size: 25px;
+}
+
+.programme .breakout-main .breakout-part .time-slot-ind{
+    margin-right: 20px;
+}
+
+.programme .breakout-main .breakout-part .time-slot{
+    margin-left: 0px;
+}
+
+.programme .breakout-main .breakout-part .time-slot p{
+   font-size: 25px;
+}
+
+.programme .breakout-main .breakout-part .time-slot span{
+    font-size: 20px;
+ }
+
 
 /* .img-container .popup-img{
     position: fixed;
@@ -1239,6 +1264,13 @@ a {
         font-size: 17px;
     }
 
+    .speaker .single-speaker .speaker-desc p{
+        margin-bottom: 0;
+    }
+
+    .speaker .single-speaker .speaker-desc .speaker-sched{
+        font-size: 20px;
+    }
 
     .breakout{
         margin: 30px;
@@ -1342,19 +1374,31 @@ a {
     .tech-visit .single-tech-visit .container{
         margin-bottom: 10px;
     }
+
+    .speaker h1{
+        font-size: 30px;
+    }
 }
 
 @media(max-width:432px){
-    .speaker .single-speaker img {
-        width: 120px;
-        height: 120px;
-        object-fit: cover;
-        margin-right: 20px;
-        border-radius: 5px;
-        box-shadow: 5px 10px rgba(0, 0, 0, 0.08);
+    .speaker .single-speaker img{
+        height: 230px;
     }
+
+    .speaker .single-speaker .speaker-desc .speaker-sched{
+        margin-bottom: 15px;
+    }
+
+    .speaker .single-speaker .speaker-desc .speaker-sched{
+        margin-bottom: 15px;
+    }
+
+    .speaker .single-speaker .speaker-desc a{
+        font-size: 16px;
+    }
+
     .speaker .single-speaker p {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .hero .desc h1{
