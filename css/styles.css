@@ -364,6 +364,41 @@ a {
     margin-right: 150px;
 }
 
+.speaker .single-speaker .text-expand{
+    display: flex;
+    flex-direction: column;
+}
+
+#text-check{
+    display: none;
+}
+
+.content{
+    display: none;
+}
+
+#text-check:checked ~ .content{
+    display: block;
+}
+
+#text-check:checked ~ label{
+    display: none;
+}
+
+#text-check:checked ~ span{
+    display: none;
+}
+
+.text-checkbtn{
+    cursor: pointer;
+}
+
+.text-checkbtn a{
+    font-size:20px;
+    text-decoration: underline;
+    color: #565656;
+}
+
 .speaker .single-speaker img {
     width: 230px;
     height: 230px;
@@ -383,6 +418,7 @@ a {
     margin-top: 0;
     color: #2a2a2a;
 }
+
 
 
 .breakout {
@@ -973,6 +1009,7 @@ a {
 
     .hero .desc h1 {
         font-size: 30px;
+        padding: 0 30px;
         margin:0;
         margin-top: 50px;
         text-align: center;
