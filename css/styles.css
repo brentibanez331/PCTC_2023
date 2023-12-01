@@ -90,6 +90,22 @@ a {
     align-items: center;
 }
 
+.registration {
+    background-color: #e97c16;
+    color:white;
+    text-align: center;
+}
+
+.registration a{
+    color:white;
+}
+
+.registration p{
+    font-size: 20px;
+    padding: 10px 0;
+    margin: 0;
+}
+
 .checkbtn {
     font-size: 50px;
     line-height: 80px;
@@ -194,22 +210,57 @@ a {
     color: #FFFFFF;
     cursor: pointer;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     line-height: normal;
     margin: 0;
     min-height: 60px;
     min-width: 0;
     outline: none;
-    padding: 16px 24px;
+    padding: 24px 24px;
     text-align: center;
     text-decoration: none;
     transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    width: 20%;
+    width: 300px;
+    margin:0 30px;
     will-change: transform;
+}
+
+.button-2 {
+    appearance: none;
+    background-color: #ffffff;
+    border: 2px solid #1A1A1A;
+    box-sizing: border-box;
+    color: #1a1a1a;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 24px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 300px;
+    margin:0 30px;
+    will-change: transform;
+}
+
+.button-2:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(241, 241, 241);
+    transform: translateY(-2px);
 }
 
 .button:disabled {
@@ -393,7 +444,11 @@ a {
     flex-direction: column;
 }
 
-
+.breakout h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
 
 .content{
     display: none;
@@ -487,22 +542,32 @@ a {
 
 .breakout h1 {
     text-align: center;
-    margin-bottom: 80px;
     font-size: 50px;
     font-weight:300;
 }
 
+.breakout h3 {
+    font-size:25px;
+    margin-bottom: 50px;
+}
+
+.breakout .venue {
+    font-size:40px;
+    margin-bottom: 30px;
+}
+
+
 .breakout .single-breakout {
     display: flex;
     margin-bottom: 60px;
-    margin-right: 150px;
+    /* margin-right: 150px; */
 }
 
 .breakout .single-breakout img {
-    width: 230px;
-    height: 230px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
-    margin-right: 100px;
+    margin-right: 50px;
     border-radius: 5px;
     box-shadow: 5px 10px rgba(0, 0, 0, 0.08);
 }
@@ -510,6 +575,21 @@ a {
 .breakout .single-breakout p {
     font-size: 28px;
     margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.breakout .single-breakout .presentor {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.breakout .single-breakout .time-range {
+    font-size: 24px;
+    margin-top: 0;
+    font-weight: 500;
+    color: #313131;
+    text-decoration: underline;
 }
 
 .breakout .single-breakout span {
@@ -635,6 +715,12 @@ a {
     flex-direction: column;
     align-items: center;
 }
+
+    .main-desc-btn .button-col{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+    }
 
 .programme .breakout-main{
     display:flex;
@@ -967,12 +1053,6 @@ a {
         text-align: left;
     }
 
-    .button{
-        font-size: 20px;
-        padding: 30px 30px;
-        width: 30%;
-    }
-
     .footer {
         display: flex;
         justify-content: center;
@@ -1131,6 +1211,12 @@ a {
         margin-top: 0;
     }
 
+    .main-desc-btn .button-col{
+        margin-top: 30px;
+        display:flex;
+        flex-direction:column;
+    }
+
     .hero .desc h1 {
         font-size: 30px;
         padding: 0 30px;
@@ -1141,9 +1227,19 @@ a {
 
     .hero .desc p {
         font-size: 20px;
-        margin:0;
         margin-top: 20px;
         text-align: left;
+        margin-bottom: 30px;
+    }
+
+    .registration p,
+    .registration a{
+        font-size: 18px;
+        padding: 5px 0;
+    }
+
+    .button-2{
+        font-size: 18px;
     }
 
     .button {
@@ -1154,12 +1250,10 @@ a {
         display: inline-block;
         font-size: 18px;
         font-weight: 600;
-        margin-top: 30px;
+        margin-top: 15px;
         min-height: 60px;
         min-width: 0;
-        padding: 20px 15px;
-        width: 50%;
-
+        padding: 24px 24px;
     }
 
     .head-nav .checkbtn {
