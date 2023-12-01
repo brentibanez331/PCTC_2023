@@ -787,6 +787,33 @@ a {
     font-size: 20px;
  }
 
+ .back-to-top{
+    position:fixed;
+    bottom: 2rem;
+    right: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e97c16;
+    border-radius: .5rem;
+    padding: 20px;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+ }
+
+ .back-to-top span{
+    color: white;
+    font-size: 25px;
+    transition: 0.2s ease-out;
+ }
+
+ .back-to-top:hover{
+    background-color: rgb(200, 106, 17);
+ }
+
+ .back-to-top:hover span{
+    transform: translateY(-4px);
+ }
 
 /* .img-container .popup-img{
     position: fixed;
