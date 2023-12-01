@@ -66,6 +66,10 @@ a {
     justify-content: center;
 }
 
+.mt-3{
+    margin-top: 30px;
+}
+
 .header img {
     width: 500px;
     margin: 0 auto;
@@ -1377,7 +1381,7 @@ a {
     }
 
     .programme .panels {
-        margin: 0 70px;
+        margin: 0 30px;
     }
 
     .feature{
@@ -1408,10 +1412,27 @@ a {
 
     .speaker .single-speaker .speaker-desc .speaker-sched{
         font-size: 20px;
+        margin-bottom: 10px;
     }
 
     .breakout{
         margin: 30px;
+    }
+
+    .breakout h1{
+        font-size:40px;
+    }
+    
+    .footer{
+        margin-bottom: 20px;
+    }
+
+    .copyright{
+        text-align: center;
+    }
+
+    .copyright p{
+        font-size: 17px;
     }
 
     .breakout .single-breakout{
@@ -1504,14 +1525,21 @@ a {
     }
 
     .programme .breakout-main .breakout-session{
-        margin-left:0px;
+        display:none;
     }
 
     .programme .breakout-main hr{
         margin: 5px;
     }
 
-    
+    .programme p{
+        margin-bottom: 20px;
+        font-size: 27px;
+    }
+
+    .mt-3{
+        margin-top: 0px;
+    }
     
 }
 
