@@ -1135,7 +1135,7 @@ a {
     }
 
     .text-checkbtn a{
-        font-size:18px;
+        font-size:15px;
         text-decoration: underline;
         color: #565656;
         transition: 0.3s ease-in;
