@@ -1241,6 +1241,10 @@ a {
         padding: 0 30px;
         margin-bottom: 40px;
     }
+
+    .speaker h1{
+        font-size: 40px;
+    }
 }
 
 @media(max-width: 375px){
@@ -1254,7 +1258,17 @@ a {
 }
 
 @media(max-width:432px){
-
+    .speaker .single-speaker img {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        margin-right: 20px;
+        border-radius: 5px;
+        box-shadow: 5px 10px rgba(0, 0, 0, 0.08);
+    }
+    .speaker .single-speaker p {
+        font-size: 20px;
+    }
 
     .hero .desc h1{
         padding: 0 30px;
