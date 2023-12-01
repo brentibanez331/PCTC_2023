@@ -43,6 +43,9 @@
     font-style: normal;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0;
@@ -1539,6 +1542,18 @@ a {
 
     .mt-3{
         margin-top: 0px;
+    }
+
+    .breakout .single-breakout .presentor {
+        font-size: 20px;
+    }
+    
+    .breakout .single-breakout .time-range {
+        font-size: 20px;
+    }
+
+    .programme h1{
+        font-size: 40px;
     }
     
 }
