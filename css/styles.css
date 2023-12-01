@@ -342,6 +342,15 @@ a {
     margin-top: 10px;
 }
 
+.programme .breakout-main hr{
+    margin: 10px;
+    color: #dddddd;
+}
+
+.programme .breakout-main .breakout-space{
+    width:100px;
+}
+
 .programme h3 {
     font-size: 25px;
 }
@@ -725,6 +734,10 @@ a {
 .programme .breakout-main{
     display:flex;
     flex-direction: row;
+}
+
+.programme .breakout-main .breakout-session{
+    margin-left:50px;
 }
 
 .programme .breakout-main .breakout-part {
@@ -1175,6 +1188,10 @@ a {
     .hero img {
         height: 500px;
     }
+
+    .programme .breakout-main .breakout-session{
+        margin-left:0px;
+    }
 }
 
 @media(max-width: 500px) {
@@ -1335,7 +1352,7 @@ a {
 
     .programme .time-slot p {
         margin-top: 10px;
-        font-size: 22px;
+        font-size: 23px;
     }
 
     .programme .time-slot span {
@@ -1347,8 +1364,16 @@ a {
         margin-bottom: 2px;
     }
 
+    .programme .time-slot .event-desc span {
+        font-size: 19px;
+    }
+
     .programme .time-slot .time-slot-ind{
         margin-right: 28px;
+    }
+
+    .programme .breakout-main .breakout-part p{
+        font-size: 20px;
     }
 
     .programme .panels {
@@ -1477,6 +1502,17 @@ a {
     .speaker h1{
         font-size: 40px;
     }
+
+    .programme .breakout-main .breakout-session{
+        margin-left:0px;
+    }
+
+    .programme .breakout-main hr{
+        margin: 5px;
+    }
+
+    
+    
 }
 
 @media(max-width: 375px){
