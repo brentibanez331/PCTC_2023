@@ -190,6 +190,13 @@ a {
     margin: 0 auto;
 }
 
+.hero .credit{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    top: -30px;
+}
+
 .hero .desc {
     margin: 0 120px;
     margin-top: 150px;
