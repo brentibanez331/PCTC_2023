@@ -1704,6 +1704,13 @@ a {
     .breakout .venue{
         font-size: 30px;
     }
+
+    .tech-visit .single-tech-visit span{
+        font-size: 17px;
+    }
+    .tech-visit .single-tech-visit p{
+        margin-top: 5px;
+    }
 }
 
 @media(max-width:432px){
