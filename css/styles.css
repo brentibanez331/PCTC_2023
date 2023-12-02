@@ -405,6 +405,10 @@ a {
     font-size: 25px;
 }
 
+.programme .time-slot .time {
+    width: 150px;
+}
+
 .programme .panels {
     margin: 0 200px;
 }
