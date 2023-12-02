@@ -632,6 +632,7 @@ a {
 .breakout .single-breakout {
     display: flex;
     margin-bottom: 60px;
+    position: relative;
     /* margin-right: 150px; */
 }
 
@@ -649,6 +650,8 @@ a {
     margin-top: 0;
     margin-bottom: 5px;
 }
+
+
 
 .breakout .single-breakout .presentor {
     font-size: 24px;
@@ -668,6 +671,24 @@ a {
     font-size: 20px;
     margin-top: 0;
     color: #2a2a2a;
+}
+
+.breakout .single-breakout .credit {
+    display:flex;
+    flex-direction: column;
+}
+.breakout .single-breakout .credit .breakout-desc p{
+    font-size: 20px;
+}
+
+.breakout .single-breakout .credit-name {
+    font-size: 15px;
+    position:absolute;
+    top: 270px;
+    left: 2px;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .breakout .single-breakout .breakout-desc {
@@ -1686,7 +1707,14 @@ a {
         font-size: 40px;
     }
 
-
+    .breakout .single-breakout .credit-name {
+        font-size: 10px;
+        top: 100px;
+        left: 2px;
+        background-color: #ffffff;
+        padding: 5px;
+        border-radius: 5px;
+    }
 
 }
 
