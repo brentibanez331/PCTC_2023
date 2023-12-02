@@ -698,6 +698,10 @@ a {
     color: #2a2a2a;
 }
 
+.breakout .single-breakout .breakout-desc {
+    width: 900px;
+}
+
 .tech-visit {
     margin: 0 120px;
     display: flex;
@@ -1085,12 +1089,18 @@ a {
     }
 
     .breakout .single-breakout {
+        flex-direction:column;
         margin-right: 0;
+    }
+    .breakout .single-breakout .breakout-desc {
+        width: 100%;
     }
 
     .breakout .single-breakout img {
-        margin-right: 30px;
-        height: 300px;
+        margin-right: 0px;
+        height: 400px;
+        margin-bottom: 20px;
+        width: 100%;
         object-fit: cover;
     }
 
