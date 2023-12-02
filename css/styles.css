@@ -1352,7 +1352,7 @@ a {
 @media(max-width: 500px) {
 
     .programme .time-slot .time {
-        width: 100px;
+        width: 80px;
     }
 
     .programme .time-slot .event-desc {
