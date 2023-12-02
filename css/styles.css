@@ -1065,6 +1065,10 @@ a {
 }
 
 @media(max-width: 912px) {
+    .programme .time-slot .time {
+        width: 100px;
+    }
+
     .header img {
         /* margin-left: 10px; */
     }
@@ -1345,6 +1349,11 @@ a {
 }
 
 @media(max-width: 500px) {
+
+    .programme .time-slot .time {
+        width: 70px;
+    }
+
 
     .back-to-top {
         padding: 15px;
