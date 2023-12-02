@@ -1546,7 +1546,12 @@ a {
     }
 
     .programme .panels {
-        margin: 0 30px;
+        margin-left: 100px;
+        margin-right: 0;
+    }
+
+    .programme .panels ul{
+        padding-left: 20px;
     }
 
     .feature {
@@ -1719,9 +1724,17 @@ a {
         font-size: 40px;
     }
 
+    
+
 }
 
 @media(max-width: 375px) {
+    .header .PCTC-img{
+        margin: 20px 0;
+        margin-left: 10px;
+        width: 260px;
+    }
+
     .registration p {
         font-size: 13px;
     }
@@ -1806,10 +1819,17 @@ a {
     }
 
     .programme .panels {
-        margin: 0 10px;
+        margin-left: 80px;
+        margin-right: 0;
     }
 
+    .programme .panels ul{
+        padding-left: 10px;
+    }
+
+
     .head-nav .checkbtn {
+        top: 70px;
         right: 5px;
         font-size: 25px;
         margin-right: 20px;
@@ -1833,6 +1853,14 @@ a {
 
     .tech-visit .single-tech-visit p {
         margin-top: 5px;
+    }
+
+    .programme .time-slot .event-desc{
+        width: 225px;
+    }
+
+    .programme .time-slot .time{
+        width: 70px;
     }
 }
 
