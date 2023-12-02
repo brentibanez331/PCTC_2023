@@ -152,10 +152,20 @@ a {
     margin-bottom: 10px;
 }
 
+.hero-img{
+    position: relative;
+}
+
 .hero .credit {
-    font-size: 20px;
+    font-size: 14px;
     text-align: center;
     margin-top: 10px;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
 }
 
 .hero .desc {
@@ -169,7 +179,7 @@ a {
 
 .hero .desc h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     padding: 0 80px;
     min-width: 400px;
 }
@@ -177,7 +187,7 @@ a {
 .hero .desc p {
     text-align: center;
     margin-bottom: 60px;
-    font-size: 25px;
+    font-size: 20px;
     flex-grow: 1;
 }
 
@@ -185,8 +195,8 @@ a {
 /* CSS */
 .button {
     appearance: none;
-    background-color: #000000;
-    border: 2px solid #1A1A1A;
+    background-color: #e97c16;;
+    border: 2px solid #e97c16;;
     box-sizing: border-box;
     color: #FFFFFF;
     cursor: pointer;
@@ -196,9 +206,10 @@ a {
     line-height: normal;
     margin: 0;
     min-height: 60px;
+    border-radius: 10px;
     min-width: 0;
     outline: none;
-    padding: 24px 24px;
+    padding: 20px 20px;
     text-align: center;
     text-decoration: none;
     transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
@@ -251,7 +262,7 @@ a {
 .button:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     background-color: white;
-    color: black;
+    color: #e97c16;;
     transform: translateY(-2px);
 }
 
@@ -313,12 +324,12 @@ a {
 
 .programme h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 300;
 }
 
 .programme h2 {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 0;
     margin-top: 10px;
 }
@@ -337,7 +348,7 @@ a {
 }
 
 .programme p {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .programme span {
@@ -359,12 +370,13 @@ a {
 
 .event-desc p {
     margin-bottom: 5px;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 20px;
 }
 
 .programme .time-slot .event-desc span {
-    font-size: 25px;
+    font-size: 20px;
+    color:#313131;
 }
 
 .programme .time-slot .time {
@@ -421,7 +433,7 @@ a {
 .speaker h1 {
     text-align: center;
     margin-bottom: 80px;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 300;
 }
 
@@ -439,7 +451,7 @@ a {
 }
 
 .breakout h2 {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 0;
     margin-top: 10px;
 }
@@ -583,21 +595,21 @@ a {
 }
 
 .speaker .single-speaker p {
-    font-size: 30px;
+    font-size: 28px;
     margin-top: 0;
     font-weight: 500;
-    margin-bottom: 0;
+    margin-bottom: 5px;
 }
 
 .speaker .single-speaker .speaker-desc .speaker-sched {
-    font-size: 25px;
+    font-size: 22px;
     color: #333333;
     margin-bottom: 30px;
     font-weight: 400;
 }
 
 .speaker .single-speaker span {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 0;
     color: #2a2a2a;
 }
@@ -615,7 +627,7 @@ a {
 
 .breakout h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 300;
 }
 
@@ -625,7 +637,7 @@ a {
 }
 
 .breakout .venue {
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 30px;
 }
 
@@ -647,7 +659,7 @@ a {
 }
 
 .breakout .single-breakout p {
-    font-size: 28px;
+    font-size: 26px;
     margin-top: 0;
     margin-bottom: 5px;
 }
@@ -657,11 +669,11 @@ a {
 .breakout .single-breakout .presentor {
     font-size: 24px;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 5px;
 }
 
 .breakout .single-breakout .time-range {
-    font-size: 24px;
+    font-size: 22px;
     margin-top: 0;
     font-weight: 500;
     color: #313131;
@@ -707,7 +719,7 @@ a {
 .tech-visit h1 {
     text-align: center;
     margin-bottom: 80px;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 300;
 }
 
@@ -744,14 +756,14 @@ a {
 }
 
 .tech-visit .single-tech-visit p {
-    font-size: 45px;
+    font-size: 40px;
     margin-top: 30px;
     margin-bottom: 20px;
     text-align: center;
 }
 
 .tech-visit .single-tech-visit span {
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 0;
     color: #444444;
 }
@@ -796,14 +808,14 @@ a {
 
 .loc-text h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     padding: 0 80px;
     font-weight: 300;
 }
 
 .loc-text p {
     color: #2a2a2a;
-    font-size: 25px;
+    font-size: 22px;
     margin-bottom: 80px;
     padding: 0 80px;
 }
@@ -838,7 +850,7 @@ a {
 }
 
 .programme .breakout-main .breakout-part-2 p {
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .programme .breakout-main .breakout-part p {
@@ -1332,7 +1344,10 @@ a {
 @media(max-width: 500px) {
 
     .hero .credit{
-        font-size: 12px;
+        padding: 8px;
+        left: 5px;
+        bottom: 5px;
+        font-size: 10px;
     }
 
     .programme .time-slot .time {
@@ -1420,10 +1435,10 @@ a {
         display: inline-block;
         font-size: 18px;
         font-weight: 600;
-        margin-top: 15px;
         min-height: 60px;
         min-width: 0;
-        padding: 24px 24px;
+        padding: 20px 20px;
+        width: 200px;
     }
 
     .head-nav .checkbtn {
@@ -1466,7 +1481,7 @@ a {
     }
 
     .footer .footer-img img {
-        width: 130px;
+        width: 110px;
         height: auto;
         padding: 0 10px;
     }
@@ -1501,6 +1516,7 @@ a {
     .programme .time-slot h3 {
         margin-right: 40px;
         margin-top: 10px;
+        font-size: 20px;
     }
 
     .programme .time-slot p {
@@ -1515,10 +1531,11 @@ a {
 
     .programme .time-slot .event-desc p {
         margin-bottom: 2px;
+        font-size:21px;
     }
 
     .programme .time-slot .event-desc span {
-        font-size: 19px;
+        font-size: 17px;
     }
 
     .programme .time-slot .time-slot-ind {
@@ -1586,7 +1603,7 @@ a {
     }
 
     .copyright p {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     .breakout .single-breakout {
@@ -1689,7 +1706,15 @@ a {
 
     .programme p {
         margin-bottom: 20px;
-        font-size: 27px;
+        font-size: 25px;
+    }
+
+    .programme .panels ul li p{
+        font-size: 21px;
+    }
+
+    .programme span {
+        font-size: 17px;
     }
 
     .mt-3 {
