@@ -1346,12 +1346,17 @@ a {
     .programme .breakout-main .breakout-session {
         margin-left: 0px;
     }
+    
 }
 
 @media(max-width: 500px) {
 
     .programme .time-slot .time {
-        width: 70px;
+        width: 100px;
+    }
+
+    .programme .time-slot .event-desc {
+        width: 300px;
     }
 
 
