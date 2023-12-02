@@ -686,7 +686,7 @@ a {
     position:absolute;
     top: 270px;
     left: 2px;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 5px;
     border-radius: 5px;
 }
@@ -1600,7 +1600,7 @@ a {
         box-shadow: 2px 2px rgba(0, 0, 0, 0.05);
     }
 
-    .breakout .single-breakout p {
+    .breakout .single-breakout .breakout-desc p {
         font-size: 25px;
     }
 
@@ -1708,9 +1708,9 @@ a {
     }
 
     .breakout .single-breakout .credit-name {
-        font-size: 10px;
-        top: 100px;
-        left: 2px;
+        font-size: 15px;
+        top: 4px;
+        left: 4px;
         background-color: #ffffff;
         padding: 5px;
         border-radius: 5px;
