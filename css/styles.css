@@ -1237,6 +1237,10 @@ a {
 
 @media(max-width: 500px) {
 
+    .back-to-top{
+        padding: 15px;
+    }
+
     .header{
         margin-top: 10px;
     }
@@ -1678,6 +1682,24 @@ a {
 
     .programme .panels{
         margin: 0 10px;
+    }
+
+    .head-nav .checkbtn{
+        right: 5px;
+        font-size: 25px;
+        margin-right: 20px;
+    }
+
+    .breakout h1{
+        font-size: 30px;
+    }
+
+    .breakout h2{
+        font-size: 25px;
+    }
+
+    .breakout .venue{
+        font-size: 30px;
     }
 }
 
