@@ -472,7 +472,7 @@ a {
 
 #text-check-1, #text-check-2, #text-check-3, #text-check-4, #text-check-5, #text-check-6, #text-check-7, #text-check-8,
 #text-check-9, #text-check-10, #text-check-11, #text-check-12, #text-check-13, #text-check-14, #text-check-15, #text-check-16,
-#text-check-16,#text-check-17, #text-check-18, #text-check-19, #text-check-20
+#text-check-16,#text-check-17, #text-check-18, #text-check-19, #text-check-20, #text-check-21
 {
     display: none;
 }
@@ -481,7 +481,8 @@ a {
 #text-check-5:checked ~ .content, #text-check-6:checked ~ .content, #text-check-7:checked ~ .content, #text-check-8:checked ~ .content,
 #text-check-9:checked ~ .content, #text-check-10:checked ~ .content, #text-check-11:checked ~ .content, #text-check-12:checked ~ .content,
 #text-check-13:checked ~ .content,#text-check-14:checked ~ .content,#text-check-15:checked ~ .content, #text-check-16:checked ~ .content,
-#text-check-17:checked ~ .content,#text-check-18:checked ~ .content,#text-check-19:checked ~ .content,#text-check-20:checked ~ .content
+#text-check-17:checked ~ .content,#text-check-18:checked ~ .content,#text-check-19:checked ~ .content,#text-check-20:checked ~ .content,
+#text-check-21:checked ~ .content
 {
     display: block;
 }
@@ -490,7 +491,8 @@ a {
 #text-check-5:checked ~ label, #text-check-6:checked ~ label, #text-check-7:checked ~ label, #text-check-8:checked ~ label,
 #text-check-9:checked ~ label, #text-check-10:checked ~ label, #text-check-11:checked ~ label, #text-check-12:checked ~ label,
 #text-check-13:checked ~ label,#text-check-14:checked ~ label,#text-check-15:checked ~ label,#text-check-16:checked ~ label,
-#text-check-17:checked ~ label,#text-check-18:checked ~ label,#text-check-19:checked ~ label,#text-check-20:checked ~ label
+#text-check-17:checked ~ label,#text-check-18:checked ~ label,#text-check-19:checked ~ label,#text-check-20:checked ~ label,
+#text-check-21:checked ~ label
 {
     display: none;
 }
@@ -499,7 +501,8 @@ a {
 #text-check-5:checked ~ span, #text-check-6:checked ~ span, #text-check-7:checked ~ span, #text-check-8:checked ~ span,
 #text-check-9:checked ~ span, #text-check-10:checked ~ span, #text-check-11:checked ~ span, #text-check-12:checked ~ span,
 #text-check-13:checked ~ span,#text-check-14:checked ~ span,#text-check-15:checked ~ span,#text-check-16:checked ~ span,
-#text-check-17:checked ~ span,#text-check-18:checked ~ span,#text-check-19:checked ~ span,#text-check-20:checked ~ span
+#text-check-17:checked ~ span,#text-check-18:checked ~ span,#text-check-19:checked ~ span,#text-check-20:checked ~ span,
+#text-check-21:checked ~ span
 {
     display: none;
 }
