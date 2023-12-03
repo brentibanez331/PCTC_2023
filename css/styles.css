@@ -150,6 +150,8 @@ a {
     justify-content: center;
     margin: 0 auto;
     margin-bottom: 10px;
+    /* mask-image: linear-gradient(black, transparent);
+    -webkit-mask-image: linear-gradient(black 80%, transparent 100%); */
 }
 
 .hero-img{
@@ -679,6 +681,8 @@ a {
     color: #313131;
     text-decoration: underline;
 }
+
+
 
 .breakout .single-breakout span {
     font-size: 19px;
