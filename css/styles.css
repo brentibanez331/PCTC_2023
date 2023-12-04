@@ -486,7 +486,10 @@ a {
 #text-check-20,
 #text-check-21,
 #text-check-22,
-#text-check-23 {
+#text-check-23,
+#text-check-24,
+#text-check-25,
+#text-check-26 {
     display: none;
 }
 
@@ -512,7 +515,10 @@ a {
 #text-check-20:checked~.content,
 #text-check-21:checked~.content,
 #text-check-22:checked~.content,
-#text-check-23:checked~.content {
+#text-check-23:checked~.content,
+#text-check-24:checked~.content,
+#text-check-25:checked~.content,
+#text-check-26:checked~.content {
     display: block;
 }
 
@@ -538,7 +544,10 @@ a {
 #text-check-20:checked~label,
 #text-check-21:checked~label,
 #text-check-22:checked~label,
-#text-check-23:checked~label {
+#text-check-23:checked~label,
+#text-check-24:checked~label,
+#text-check-25:checked~label,
+#text-check-26:checked~label {
     display: none;
 }
 
@@ -564,7 +573,10 @@ a {
 #text-check-20:checked~span,
 #text-check-21:checked~span,
 #text-check-22:checked~span,
-#text-check-23:checked~span {
+#text-check-23:checked~span,
+#text-check-24:checked~span,
+#text-check-25:checked~span,
+#text-check-26:checked~span {
     display: none;
 }
 
@@ -670,14 +682,15 @@ a {
 
 
 .breakout .single-breakout .presentor {
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 0;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .breakout .single-breakout .time-range {
     font-size: 20px;
     margin-top: 0;
+    margin-bottom: 20px;
     font-weight: 500;
     color: #313131;
     text-decoration: underline;
