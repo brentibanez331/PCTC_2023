@@ -11,7 +11,7 @@ body {
 }
 
 a {
-    font-size: 20px;
+    font-size: 18px;
     color: #323232;
 }
 
@@ -42,7 +42,7 @@ a {
 }
 
 .header h1 {
-    font-size: 50px;
+    font-size: 48px;
     margin: 0;
     margin-bottom: 30px;
 }
@@ -71,13 +71,13 @@ a {
 }
 
 .registration p {
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px 0;
     margin: 0;
 }
 
 .checkbtn {
-    font-size: 50px;
+    font-size: 48px;
     line-height: 80px;
     display: none;
     margin-right: 30px;
@@ -97,7 +97,7 @@ a {
 .navbar .nav-link {
     color: #000000;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     margin: 0px 40px;
     padding: 10px 10px;
     position: relative;
@@ -159,14 +159,14 @@ a {
 }
 
 .hero .credit {
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     margin-top: 10px;
     position: absolute;
-    left: 10px;
-    bottom: 10px;
+    right: 10px;
+    bottom: 8px;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.8);
+    color: white;
     border-radius: 5px;
 }
 
@@ -181,7 +181,7 @@ a {
 
 .hero .desc h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 38px;
     padding: 0 80px;
     min-width: 400px;
 }
@@ -189,7 +189,7 @@ a {
 .hero .desc p {
     text-align: center;
     margin-bottom: 60px;
-    font-size: 20px;
+    font-size: 18px;
     flex-grow: 1;
 }
 
@@ -231,7 +231,7 @@ a {
     color: #1a1a1a;
     cursor: pointer;
     display: inline-block;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     line-height: normal;
     margin: 0;
@@ -298,7 +298,7 @@ a {
 }
 
 .copyright p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .footer img {
@@ -326,12 +326,12 @@ a {
 
 .programme h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 300;
 }
 
 .programme h2 {
-    font-size: 25px;
+    font-size: 23px;
     margin-bottom: 0;
     margin-top: 10px;
 }
@@ -346,15 +346,15 @@ a {
 }
 
 .programme h3 {
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .programme p {
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .programme span {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .programme .time-slot {
@@ -367,17 +367,17 @@ a {
 
 .programme .time-slot h3 {
     margin-right: 100px;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .event-desc p {
     margin-bottom: 5px;
-    font-size: 25px;
+    font-size: 23px;
     margin-top: 20px;
 }
 
 .programme .time-slot .event-desc span {
-    font-size: 20px;
+    font-size: 18px;
     color:#313131;
 }
 
@@ -390,7 +390,7 @@ a {
 }
 
 .programme .panels ul li p {
-    font-size: 25px;
+    font-size: 23px;
     margin-bottom: 0;
 }
 
@@ -414,6 +414,7 @@ a {
     padding: 0 50px;
 }
 
+/* PICK UP HERE */
 .feature .single-feature a {
     font-size: 22px;
 }
@@ -1348,10 +1349,10 @@ a {
 @media(max-width: 500px) {
 
     .hero .credit{
-        padding: 8px;
-        left: 5px;
+        right: 5px;
         bottom: 5px;
         font-size: 10px;
+        padding: 0;
     }
 
     .programme .time-slot .time {
