@@ -349,6 +349,31 @@ span{
     color: #dddddd;
 }
 
+.map-bg{
+    background-color: #2a2a2a;
+}
+
+.map{
+    margin-bottom: 20px;
+}
+
+.breakout .map h2{
+    font-size: 30px;
+}
+
+.map-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1A1A1A;
+}
+
+.map-cont img{
+    width: 70%;
+    border-radius: 10px;
+}
+
 .programme .breakout-main .breakout-space {
     width: 100px;
 }
@@ -1375,6 +1400,22 @@ span{
         bottom: 5px;
         font-size: 8px;
         padding: 0;
+    }
+
+    .map-bg{
+        height: 100%;
+    }
+
+    .map-cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    .map-cont img{
+        width: 90%;
+        border-radius: 10px;
     }
 
     .programme .time-slot .time {
