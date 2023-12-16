@@ -113,6 +113,17 @@ span{
     cursor: pointer;
 }
 
+.footer .footer-img .DOT-icon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer .footer-img .DOT-icon img{
+    height: 200px;
+}
+
 .navbar .nav-link:before,
 .navbar .nav-link:after {
     position: absolute;
@@ -1409,6 +1420,25 @@ span{
         padding: 0;
     }
 
+    .bidyo {
+        align-items: center;
+    }
+
+    .post-event{
+        margin: 50px 0;
+    }
+
+    .post-event h3{
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .bidyo .box{
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
     .map-bg{
         height: 100%;
     }
@@ -1552,13 +1582,19 @@ span{
 
     .footer .footer-img {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 50px;
+        margin: 30px 0;
     }
 
-    .footer .footer-img img {
+    .footer .footer-img .DOT-icon img{
+        height: 110px;
         width: 110px;
+    }
+    
+    .footer .footer-img img {
+        width: 130px;
         height: auto;
         padding: 0 10px;
     }
@@ -1836,6 +1872,15 @@ span{
         width: 240px;
     }
 
+    .post-event h3{
+        margin-top: 0;
+    }
+
+    .footer{
+        margin-left:19px;
+        margin-right: 19px;
+    }
+
     .hero .desc p{
         font-size: 14px;
         line-height: 20px;
@@ -1992,15 +2037,22 @@ span{
     }
 
     .hero .desc h1 {
+        font-size: 24px;
         padding: 0 30px;
     }
 
     .bidyo {
-        position: absolute;
-        left: 150px;
-        width: 300px;
-        padding: 10px;
-        align: center;
+        align-items: center;
+    }
+
+    .post-event{
+        margin: 50px 0;
+    }
+
+    .bidyo .box{
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
     }
     
     .img-container {
@@ -2010,22 +2062,28 @@ span{
         margin-bottom: 100px;
     }
 
+    .loc-text p{
+        padding: 0 20px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
     .img-container .img-box {
-        width: 1400px;
+        width: calc(100% - 20px);
         margin: 20px auto;
-        columns: 4;
-        column-gap: 20px;
+        columns: 2;
+        column-gap: 7px;
     }
     
     .img-container .img-box .box {
         width: 100%;
-        margin-bottom: 10px;
+        margin-bottom: 7px;
         break-inside: avoid;
     }
 
     .img-container .img-box .box img {
         max-width: 100%;
-        border-radius: 15px;
+        border-radius: 7px;
         transition: 0.3s ease-in-out;
     }
 
