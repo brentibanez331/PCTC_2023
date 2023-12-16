@@ -1833,8 +1833,11 @@ span{
     .header .PCTC-img {
         margin: 20px 0;
         margin-left: 10px;
-        width: 260px;
+        width: 240px;
     }
+
+    .hero .desc p{
+        font-size: 14px;
 
     .registration p {
         font-size: 11px;
