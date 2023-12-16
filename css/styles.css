@@ -464,6 +464,18 @@ span{
     padding: 0 50px;
 }
 
+.bidyo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bidyo .box{
+    text-align: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
 /* PICK UP HERE */
 .feature .single-feature a {
     font-size: 20px;
