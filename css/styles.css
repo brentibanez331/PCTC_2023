@@ -1992,39 +1992,39 @@ span{
 
     .bidyo {
         position: absolute;
-        right: 150px;
+        left: 150px;
         width: 300px;
         padding: 10px;
         align: center;
     }
     
-    .img-pevent {
+    .img-container {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
         margin-bottom: 100px;
     }
 
-    .img-pevent .img-event {
+    .img-container .img-box {
         width: 1400px;
         margin: 20px auto;
         columns: 4;
         column-gap: 20px;
     }
-
-    .img-pevent .img-event .pic{
+    
+    .img-container .img-box .box {
         width: 100%;
         margin-bottom: 10px;
         break-inside: avoid;
     }
 
-    .img-pevent .img-event .pic img {
+    .img-container .img-box .box img {
         max-width: 100%;
         border-radius: 15px;
         transition: 0.3s ease-in-out;
     }
 
-     .img-pevent .img-event .pic img:hover {
+    .img-container .img-box .box img:hover {
         transform: scale(1.05);
     }
 }
