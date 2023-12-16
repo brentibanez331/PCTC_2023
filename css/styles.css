@@ -1872,6 +1872,14 @@ span{
         width: 240px;
     }
 
+    .speaker{
+        margin: 30px 20px;
+    }
+
+    .breakout .map h2{
+        font-size: 25px;
+    }
+
     .post-event h3{
         margin-top: 0;
     }
@@ -1988,6 +1996,11 @@ span{
 
     .breakout h1 {
         font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .breakout{
+        margin: 30px 20px;
     }
 
     .breakout h2 {
@@ -1995,7 +2008,19 @@ span{
     }
 
     .breakout .venue {
-        font-size: 28px;
+        font-size: 24px;
+    }
+
+    .breakout .single-breakout .breakout-desc p{
+        font-size: 20px;
+    }
+
+    .breakout .single-breakout .breakout-desc .presentor{
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    .breakout .single-breakout .breakout-desc .time-range{
+        font-size: 18px;
     }
 
     .tech-visit .single-tech-visit span {
