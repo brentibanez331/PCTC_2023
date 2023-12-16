@@ -1989,4 +1989,41 @@ span{
     .hero .desc h1 {
         padding: 0 30px;
     }
+
+    .bidyo {
+        position: absolute;
+        right: 150px;
+        width: 300px;
+        padding: 10px;
+    }
+    
+    .img-pevent {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        margin-bottom: 100px;
+    }
+
+    .img-pevent .img-event {
+        width: 1400px;
+        margin: 20px auto;
+        columns: 4;
+        column-gap: 20px;
+    }
+
+    .img-pevent .img-event .pic{
+        width: 100%;
+        margin-bottom: 10px;
+        break-inside: avoid;
+    }
+
+    .img-pevent .img-event .pic img {
+        max-width: 200%;
+        border-radius: 50px;
+        transition: 0.3s ease-in-out;
+    }
+
+     .img-pevent .img-event .pic img:hover {
+        transform: scale(1.05);
+    }
 }
