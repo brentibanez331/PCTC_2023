@@ -1838,6 +1838,7 @@ span{
 
     .hero .desc p{
         font-size: 14px;
+        line-height: 10px;
     }
 
     .registration p {
