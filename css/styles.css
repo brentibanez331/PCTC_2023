@@ -476,6 +476,15 @@ span{
     margin: 30px 0;
 }
 
+.bidyo .box a{
+    color: #323232;
+    transition: 0.3s ease;
+}
+
+.bidyo .box a:hover{
+    color:#bababa;
+}
+
 /* PICK UP HERE */
 .feature .single-feature a {
     font-size: 20px;
