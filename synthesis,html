@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Creative Tourisms PH</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <link href="img/favicon.ico" rel="icon">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800" rel="stylesheet"> -->
+
+    <script src="https://kit.fontawesome.com/7fd7203ef6.js" crossorigin="anonymous"></script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <link rel="icon" href="img/DOT-PH-icon.png"
+          type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="registration">
+        <p>Secure a spot for the Technical Visits, <a href="https://forms.gle/4eRzqARf6eH8H8P78">REGISTER HERE</a></p>
+    </div>
+    <!-- navbar section -->
+    <nav class="head-nav">
+        <div class="header">
+            <div class="top-header">
+                <img src="img/header-2.png">
+            </div>
+            <div>
+                <img class="PCTC-img" src="img/TEXT.png">
+            </div>
+        </div>
+        <hr class="">
+
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label></input>
+        <nav class="navbar wow fadeInUp" data-wow-delay="0.1s">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="postevent.html" class="nav-item nav-link">Post-Event</a>
+            <a href="programme.html" class="nav-item nav-link">Programme</a>
+            <a href="speakers.html" class="nav-item nav-link">Meet the Speakers</a>
+            <a href="breakout-session.html" class="nav-item nav-link">Breakout Sessions</a>
+            <a href="tech-visits.html" class="nav-item nav-link active">Technical Visits</a>
+        </nav>
+    </nav>
+    <hr class="">
+
+    <div class="tech-visit ">
+        <h1 class="">TECHNICAL VISITS</h1>
+        <div class="single-tech-visit">
+
+            <div class="container">
+                <a href="bacolod.html">
+                    <img id="zoomIn" src="img/bacolod/cansi.jpg">
+                </a>
+            </div>
+            <div>
+                <p>Bacolod Crafts and (Food) Crawl</p>
+                <span>You cannot leave Bacolod without trying the food that it is famous for; be a part of TeamTikim for a day. 
+                    Try the savory cansi which is beef with bone cooked in broth for hours with spices and batwan. 
+                    Cansi is one of the best street foods in Asia by the World Street Food Congress. 
+                    60% of the sugar industry is based here in Negros so why not try the food that 
+                    reflects our penchant for sweets; from napoleones to huge melts- in-your-mouth ensaimadas, crunchy piaya, 
+                    and many more. One can never go wrong with choosing this route. 
+                    Degustation at Lanai for lunch will surely make you appreciate good, clean, and fair food.
+                    <br>
+                    In the afternoon, visit the Hand Made Gallery and learn the basics of assembling a windchime. 
+                    Surely something to bring back home. Early Dinner at Casa A. Gamboa which is near the airport.<a
+                        href="bacolod.html"><span>See
+                            More</span></a>
+
+                </span>
+            </div>
+        </div>
+        <div class="single-tech-visit ">
+
+            <div class="container">
+                <a href="bago.html">
+                    <img id="zoomIn" src="img/bago/bago-11.jpg">
+                </a>
+            </div>
+            <div>
+                <p>Bago City Organic farm Tour and Jewelry making</p>
+                <span>Less than an hour to the South of Bacolod lies Bago City. Bago is known as the “Home of historical
+                    and natural treasures” as well as being the rice granary of Negros Occidental.
+                    Have you heard about the elusive criollo cacao? We will visit the cacao nursery farm of Christpher
+                    Fadriga and listen to his inspiring story. That is just for starters.<a href="bago.html"><span>See
+                            More</span></a>
+                </span>
+            </div>
+        </div>
+        <div class="single-tech-visit ">
+
+            <div class="container">
+                <a href="eb-mag.html">
+                    <img id="zoomIn" src="img/eb-magalona/eb-mag-3.jpg">
+                </a>
+            </div>
+            <div>
+                <p>7 Hectares: Organic Aquaculture Experience</p>
+                <span>Take the road less traveled (literally) and take part in a sustainable aquaculture experience at 7
+                    Hectares.
+
+                    EB Magalona is where Kiko Torno’s fishponds are. Lunch, a gem of a taste workshop, includes a light
+                    lecture on the sustainability of a pond’s ecosystem.<a href="eb-mag.html"><span>See
+                            More</span></a>
+                </span>
+            </div>
+        </div>
+        <div class="single-tech-visit ">
+
+            <div class="container">
+                <a href="murcia.html">
+                    <img id="zoomIn" src="img/murcia/murcia-1.jpg">
+                </a>
+            </div>
+            <div>
+                <p>Farm to Cup Experience: Coffee trail at Sugar Valley, Murcia</p>
+                <span>Morning: Trek in the forest – EASY LEVEL
+                    <br><br>
+                    The scent of coffee kicks off the start the tour; the freshly brewed coffee coupled with light
+                    snacks of suman (glutinous rice cooked with muscovado sugar) is all you need before you engage in an
+                    Easy Course (Elevation 470asl) at the back yard of the Canete coffee farm.<a
+                        href="murcia.html"><span>See
+                            More</span></a>
+                </span>
+            </div>
+        </div>
+<div class="single-tech-visit ">
+
+            <div class="container">
+                <a href="sagay.html">
+                    <img id="zoomIn" src="img/sagay/sagay-5.jpg">
+                </a>
+            </div>
+            <div>
+                <p>Sagay Community Tourism Experience</p>
+                <span>Sagay marine reserve is a 32,000 marine sanctuary and at the center of the coral triangle (center
+                    of biodiversity).
+                    Activities that await our guests include a trip to Suyac Island (awarded as green destination) with
+                    century old mangroves and snacks prepared by the community.<a href="sagay.html"><span>See
+                            More</span></a>
+                </span>
+            </div>
+        </div>
+        <div class="single-tech-visit ">
+
+            <div class="container">
+                <a href="silay.html">
+                    <img id="zoomIn" src="img/silay/casa a gamboa.jpg">
+                </a>
+            </div>
+            <div>
+                <p>Northern Negros Discovery: Beyond the Sugar Trail</p>
+                <span>The good life personified in the heritage houses of Negros would often take centerstage when it comes to Talisay and Silay Tours, however, we shall take culture and heritage farther with hands on activity inside the Silay City Art Space and Showroom (Old Silay Puericulture Center). Hand painting of Calatrava bags in the morning.<a
+                        href="silay.html"><span>Read
+                            More</span></a>
+                </span>
+            </div>
+        </div>
+
+        <!-- <div class="single-tech-visit ">
+
+            <div class="container">
+                <a href="peace-pond.html">
+                    <img id="zoomIn" src="img/peace-pond/peace-pond-1.jpg">
+                </a>
+            </div>
+            <div>
+                <p>Peace Pond Experience: A Fusion of Creativity and Sustainability </p>
+                <span>In 2019, PeacePond initiated the Blastik Project, a collaboration with a soft drinks company. This
+                    comprehensive plastic bottle collection and recycling endeavor transforms discarded plastic into
+                    durable items such as bowls, tiles, walk pavers, candle holders, and various lifestyle articles. 
+                    <a href="peace-pond.html"><span>Read
+                            More</span></a>
+                </span>
+            </div>
+        </div> -->
+    </div>
+    <br><br>
+
+    <!-- <div class="feature ">
+        <div class="single-feature">
+            <img src="img/hero.png">
+            <a href="programme.html">Programme</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel lacinia nisl, et volutpat arcu.
+                Morbi velit enim, luctus in volutpat posuere, aliquet eget sem. Craspellentesque quam in ultricies
+                tincidunt.
+                Nam sagittis nisl sed turpis cursus, nec dapibus neque blandit. Quisque eget nulla et augue convallis
+                euismod ut ut
+                erat. Donec congue</p>
+        </div>
+        <div class="single-feature">
+            <img src="img/hero.png">
+            <a href="speakers.html">Meet the Speakers</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel lacinia nisl, et volutpat arcu.
+                Morbi velit enim, luctus in volutpat posuere, aliquet eget sem. Craspellentesque quam in ultricies
+                tincidunt.
+                Nam sagittis nisl sed turpis cursus, nec dapibus neque blandit. Quisque eget nulla et augue convallis
+                euismod ut ut
+                erat. Donec congue</p>
+        </div>
+        <div class="single-feature">
+            <img src="img/hero.png">
+            <a href="breakout-session.html">Breakout Sessions</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel lacinia nisl, et volutpat arcu.
+                Morbi velit enim, luctus in volutpat posuere, aliquet eget sem. Craspellentesque quam in ultricies
+                tincidunt.
+                Nam sagittis nisl sed turpis cursus, nec dapibus neque blandit. Quisque eget nulla et augue convallis
+                euismod ut ut
+                erat. Donec congue</p>
+        </div>
+    </div> -->
+
+    <hr>
+
+    <div class="section footer ">
+        <h1>PHILIPPINE CREATIVE TOURISM CONGRESS 2023</h1>
+        <div class="footer-img">
+            <div class="DOT-icon">
+                <img src="img/DOT-PH-icon.png">
+            </div>
+            <div>
+                <img src="img/DOT-LOGO.png">
+                <img src="img/creative-tourism.png">
+            </div>
+        </div>
+        <div>
+            <h2> with the support of </h2>
+            <div class="support-list">
+                <img src="img/orange-project.png">
+                <img src="img/province-of-neg-occ.png">
+                <img src="img/city-of-bacolod.png">
+                <img src="img/terra-madre.png">
+                <img src="img/slow-food.png">
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright 2023 Philippines Department of Tourism</p>
+        </div>
+    </div>
+
+    <!-- back to top button -->
+    <a href="#" class="back-to-top">
+        <span class="material-symbols-outlined">
+            arrow_upward
+            </span>
+    </a>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
